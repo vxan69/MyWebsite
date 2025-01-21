@@ -18,12 +18,7 @@ This repository contains the code for my personal portfolio website. It's a simp
 
 ---
 
-## Preview
 
-Here’s how the website looks:
-
-![Website Screenshot](![image](https://github.com/user-attachments/assets/3353a17a-26af-4b43-becd-661fc183f4e3)
-)
 
 ---
 
