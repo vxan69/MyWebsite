@@ -71,8 +71,17 @@
             color: #bbb;
             margin-top: 20px;
         }
-        footer p {
-            margin: 0;
+        footer .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        footer .social-links img {
+            width: 30px;
+            height: 30px;
+            transition: transform 0.3s;
+        }
+        footer .social-links img:hover {
+            transform: scale(1.2);
         }
     </style>
 </head>
@@ -80,7 +89,7 @@
     <header>
         <img src="file:///C:/Users/ankit/OneDrive/%EC%82%AC%EC%A7%84/Me/mypfp.jpg.jpeg" alt="Profile Picture">
         <h1>Vxan</h1>
-        <p>Student | Curious Learner | video game enthusiast</p>
+        <p>Student | Curious Learner | Video Game Enthusiast</p>
         <nav>
             <a href="#about">About Me</a>
             <a href="#academics">Academics</a>
@@ -111,6 +120,11 @@
 
     <footer>
         <p>&copy; 2025 Ankit's Portfolio. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174848.png" alt="Facebook"></a>
+            <a href="https://instagram.com/vxan.here" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com/@vxan.r" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"></a>
+        </div>
     </footer>
 </body>
 </html>
